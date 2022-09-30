@@ -141,8 +141,8 @@
     # & Stripe bloat
     end
 
-    spec.subspec 'ChatSDK' do |ChatSDK|
-    ChatSDK.dependency    'Hippo'
+    spec.subspec 'ChatSDK' do |chatSdk|
+        chatSdk.dependency    'Hippo'
     end
 
     spec.subspec 'CallingSDK' do |call|
