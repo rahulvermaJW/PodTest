@@ -142,12 +142,11 @@
     end
 
     spec.subspec 'ChatSDK' do |ChatSDK|
-    paypal.xcconfig    =
     ChatSDK.dependency    'Hippo'
     end
 
-    spec.subspec 'CallingSDK' do |apple|
-    apple.dependency      'HippoCallClient'
+    spec.subspec 'CallingSDK' do |call|
+    call.dependency      'HippoCallClient'
     end
 
     end
