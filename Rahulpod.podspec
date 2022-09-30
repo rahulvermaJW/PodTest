@@ -16,7 +16,7 @@
     #
 
     spec.name         = "Rahulpod"
-    spec.version      = "0.0.1"
+    spec.version      = "0.0.2"
     spec.summary      = "Rahulpod is only a testing pod"
 
     # This description is used to generate tags and improve search results.
